@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+login-server/node_modules/
+login-client/node_modules/
+build/
+tmp/
+temp/
