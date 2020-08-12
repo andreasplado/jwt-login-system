@@ -49,6 +49,8 @@ http://localhost:3000/user/
 ```
 # Login client
 
+login-client is a frontend for login system made in ReactJs.
+
 ## Installation
 
 Use a node package manager [npm](https://www.npmjs.com/) to install login-client. Navigate to login client
