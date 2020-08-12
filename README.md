@@ -49,7 +49,7 @@ http://localhost:3000/user/
 ```
 # Login client
 
-login-client is a frontend for login system made in ReactJs.
+login-client is a frontend for login system made in React.
 
 ## Installation
 
