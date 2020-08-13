@@ -47,6 +47,13 @@ To view already authenticated endpoint you must first specify the header content
 ```bash
 http://localhost:3000/user/
 ```
+
+* I used reflect-metadata for annotations in TypeORM.
+* I used jsonwebtoken for handling authentication.
+* I used bcryptjs to hash the password.
+* I used ts-node-dev to automatically restart the server if changes in file detected.
+* I used cass-validator to easily validate user input.
+
 # Login client
 
 ## Installation
@@ -65,3 +72,6 @@ npm install
 ```bash
 npm run
 ```
+
+* I used Formik for easy form in React.
+* I used axios as a very popular requesthandler.

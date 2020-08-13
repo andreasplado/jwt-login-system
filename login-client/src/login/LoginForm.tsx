@@ -2,7 +2,7 @@ import { Button } from "@material-ui/core";
 import { Form, Formik, Field } from "formik";
 import * as React from "react";
 import axios from "axios";
-import { MyField } from "./LoginField";
+import { LoginField } from "./LoginField";
 
 interface Values {
   username: string;
@@ -44,7 +44,7 @@ export default class LoginForm extends React.Component<any, Values>{
                 <Field
                   name="username"
                   placeholder="Username"
-                  component={MyField}
+                  component={LoginField}
                 />
               </div>
               <div>
@@ -52,7 +52,7 @@ export default class LoginForm extends React.Component<any, Values>{
                   type="password"
                   name="password"
                   placeholder="Password"
-                  component={MyField}
+                  component={LoginField}
                 />
               </div>
               <Button type="submit">submit</Button>
