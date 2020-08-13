@@ -25,7 +25,7 @@ run the following command in cd login-server to jump  into login server
 npm run
 ```
 
-To create user with migration please run following command in server directory:
+To create user with migration please run following command in login-server directory:
 ```bash
 typeorm migration:create -n CreateUser
 ```
